@@ -7,6 +7,9 @@ resource "azurerm_resource_group" "rg" {
 resource "azurerm_virtual_machine" "example" {
   depends_on = [ azurerm_subnet.example ]
   name = "myvm1"
+  os_profile_windows_config {
+    provision_vm_agent = true
+  }
   resource_group_name = azurerm_resource_group.rg.name
   location = azurerm_resource_group.rg.location
   vm_size = "Standard_DS1_v2"
