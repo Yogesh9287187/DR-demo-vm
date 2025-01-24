@@ -1,6 +1,6 @@
 # Variables
 variable "location" {
-  default = "East US"
+  default = "australia east"
 }
 variable "resource_group_name" {
   default = "vm-demo"
