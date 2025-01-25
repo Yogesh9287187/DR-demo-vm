@@ -1,6 +1,3 @@
-variable "vm_name" {}
-variable "resource_group_name" {}
-variable "location" {}
 variable "vm_name" {
   description = "The name of the virtual machine."
   type        = string
