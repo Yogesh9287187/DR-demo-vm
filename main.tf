@@ -1,10 +1,6 @@
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "rg" {
   name     = "example-rg"
-  location = "East US"
+  location = "Australia east"
 }
 
 resource "azurerm_virtual_network" "vnet" {
