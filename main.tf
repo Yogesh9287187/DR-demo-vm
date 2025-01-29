@@ -29,6 +29,4 @@ module "vm" {
   subnet_id           = azurerm_subnet.subnet.id
   network_interface_id = null
 }
-/* this is testing git tags*/
-/* this is testing git tags*/
-/* this is testing git tags*/
+
