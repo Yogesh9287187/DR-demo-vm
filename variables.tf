@@ -7,12 +7,14 @@ variable "vms" {
   }))
   default = {
     "vm1" = {
-      vm_size       = "Standard_B1ls"
+      // vm_size       = "Standard_B1ls"
+      vm_size       = "Standard_A1_v2"
       admin_username = "azureuser"
       admin_password = "P@ssw0rd123!"
     }
     "vm2" = {
-      vm_size       = "Standard_B1ls"
+      // vm_size       = "Standard_B1ls"
+      vm_size       = "Standard_A1_v2"
       admin_username = "azureadmin"
       admin_password = "P@ssw0rd456!"
     }
